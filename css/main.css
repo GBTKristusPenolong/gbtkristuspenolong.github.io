@@ -1,0 +1,254 @@
+body {
+	margin: 0px;
+}
+
+@media only screen and (min-width: 1024px){
+	.logo-gbt {
+		max-width: 5%;
+		height: auto;
+		margin-top: -10px;
+	}
+
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.nav-bar {
+		padding: 10px;
+		padding-left: 25px;
+		margin-top: -5px;
+		background-color: #ffff;
+	}
+
+	.name-gbt {
+		position: absolute;
+		left: 125px;
+		top: 5px;
+	}
+
+	.welcome{
+		padding: 300px;
+		background-image: url("/img/welcome-background.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #cccccc;
+		
+	}
+	
+	.welcome > h1 {
+		font-size: 80px;
+		text-align: center;
+		color: white;
+	}
+
+	li a {
+		text-decoration: none;
+		color: black;
+		font-family: sans-serif;
+		font-weight: bolder;
+	}
+
+	li a:hover {
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	ul {
+  		list-style-type: none;
+  		margin: 0;
+  		margin-top: -70px;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #ffff;
+	}
+
+	li {
+  		display: flex;
+  		flex-direction: end;
+  		align-items: flex-end;
+  		padding: 20px;
+  		text-decoration: none;
+		margin-right: 70px;
+	}
+
+	.intro {
+		padding: 3% 13%;
+	}
+
+	.intro > h2 {
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: -20px;
+	}
+
+	.intro > p {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.jadwal-ibadah {
+		text-align: center;
+	}
+
+	.jadwal-ibadah > h2 {
+		font-size: 60px;
+		margin-bottom: -20px;
+	}
+
+	.jadwal-ibadah > p {
+		font-size: 40px;
+		text-align: left;
+		padding: 20px;
+		padding-left: 23%;
+	}
+
+	.jadwal-ibadah > img {
+		margin-top: 3%;
+		max-width: 50%;
+  		height: auto;
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.konselor {
+		padding: 3% 13%;
+	}
+
+	.konselor > h2 {
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: -20px;
+	}
+
+	.konselor > p {
+		margin-left: 20%;
+		font-size: 40px;
+	}
+
+	.gembala-sidang {
+		padding: 5%;
+	}
+
+	.gembala-sidang > h2 {
+		text-align: center;
+		font-size: 60px;
+	}
+
+	table {
+		margin-top: -7%;
+		padding-left: 15%;
+		padding-right: 10%;
+	}
+
+	table h3 {
+		text-align: left;
+		padding-left: 5%;
+		font-size: 300%;
+		color: rgb(122, 122, 18);
+	}
+
+	table p {
+		text-align: left;
+		padding-left: 5%;
+		font-size: 200%;
+	}
+
+	.gembala-sidang > h3 {
+		font-size: 100px;
+		
+	}
+
+	.gembala-sidang > p {
+		font-size: 60px;
+	}
+
+	.gembala-sidang > img {
+		margin-top: -6%;
+	}
+
+	footer {
+		padding: 1%;
+		background-color: #ccccc4;
+		margin-top: 3%;
+	}
+
+	footer > p {
+		text-align: center;
+		color: gray;
+	}
+
+	.social-media {
+		text-align: center;
+		color: gray;
+	}
+
+	.sosmed {
+		width: 50px;
+		height: 100%;
+	}
+
+	.social-media > ul {
+		margin-top: 0%;
+		display: inline-block;
+  		text-align: center;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.feedback {
+		padding: 1%;
+		text-align: center;
+		color: gray;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+@media only screen and (max-width: 767px){
+	.logo-gbt {
+		max-width: 13%;
+		height: auto;
+		margin-top: -1%;
+	}
+
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.nav-bar {
+		padding: 10px;
+		padding-left: 3%;
+		margin-top: -5px;
+		background-color: #ffff;
+	}
+
+	.name-gbt {
+		position: absolute;
+		left: 17%;
+		top: 2%;
+		font-size: 60%;
+	}
+
+	.welcome{
+		padding: 20%;
+		background-image: url("/img/welcome-background.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #cccccc;
+	}
+	
+	.welcome > h1 {
+		font-size: 200%;
+		text-align: center;
+		color: white;
+	}
+	
+	.welcome > p {
+
+	}
+
+
+}
