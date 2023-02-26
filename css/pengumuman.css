@@ -30,13 +30,14 @@
 @media only screen and (min-width: 768px) {
     .pengumuman {
         padding-top: 3vh;
+        padding-bottom: 3vh;
     }
     
     .pengumuman > img {
         max-width: 70%;
         height: auto;
         padding-top: 2vh;
-        padding-bottom: 10vh;
+        padding-bottom: 2vh;
     }
     
     footer {
