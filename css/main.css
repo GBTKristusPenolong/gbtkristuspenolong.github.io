@@ -64,6 +64,11 @@
         font-size: 7vh;
     }
     
+    .gembala-sidang > img {
+        max-width: 40%;
+        height: auto;
+    }
+    
     .nama-pdt {
         text-align: center;
     }
