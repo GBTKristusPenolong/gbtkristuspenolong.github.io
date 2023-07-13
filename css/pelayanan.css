@@ -1,4 +1,8 @@
 @media only screen and (max-width: 768px) {
+    .nav-link {
+        margin-left: 3vh;
+    }
+    
     .banner-pelayanan {
         max-height: auto;
         width: 100%;
