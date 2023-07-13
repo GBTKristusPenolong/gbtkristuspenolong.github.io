@@ -3,6 +3,10 @@
         margin-left: 1vh;
     }
 
+    .nav-link {
+        margin-left: 3vh;
+    }
+
     .welcome {
         padding-top: 30vh;
         padding-bottom: 30vh;
