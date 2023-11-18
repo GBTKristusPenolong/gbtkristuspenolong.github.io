@@ -1,0 +1,153 @@
+@media (max-width: 1028px) {
+    h2 {
+        font-size: 5vh;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .navbar-brand {
+        font-family: 'Bebas Neue';
+    }
+
+    .nav-item > a {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .intro {
+        margin-top: 10vh;
+        padding: 5vh;
+        background-image: url(https://images.pexels.com/photos/2351723/pexels-photo-2351723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .intro-text {
+        font-size: 7vh;
+        color: white;
+        font-family: 'Bebas Neue';
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .about-us {
+        padding: 2vh 0vh 2vh 0vh;
+    }
+
+    .carousel {
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    footer {
+        padding: 5vh 5vh;
+        background-color: gray;
+    }
+
+    .foot-one {
+        padding-bottom: 3vh;
+    }
+
+    .social-media-link {
+        margin-bottom: -2vh !important;
+    }
+
+    .social-media-link > a {
+        text-decoration: none;
+        color: white;
+        font-size: 5vh;
+    }
+
+    .jam-ibadah > p {
+        margin-bottom: 0.5vh;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+@media (min-width: 1028px) {
+    h2 {
+        font-size: 7vh;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .navbar-brand {
+        font-family: 'Bebas Neue';
+    }
+
+    .nav-item > a {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .intro {
+        margin-top: 5vh;
+        padding: 15vh;
+        background-image: url(https://images.pexels.com/photos/2351723/pexels-photo-2351723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .intro-text {
+        font-size: 10vh;
+        color: white;
+        font-family: 'Bebas Neue';
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .content {
+        padding: 4vh 0vh;
+    }
+
+    .about-us > p {
+        font-size: 3vh;
+    }
+
+    .carousel {
+        max-width: 40%;
+        height: auto;
+        margin: auto;
+    }
+
+    footer {
+        padding: 5vh 40vh;
+        background-color: #353535;
+    }
+
+    .foot-one {
+        padding-bottom: 5vh;
+    }
+
+    .social-media {
+        padding: 0vh 10vh 0vh 10vh;
+    }
+
+    .social-media > h3 {
+        font-size: 3.5vh;
+    }
+
+    .jam-ibadah > h3 {
+        font-size: 3.5vh;
+        /* line-height: 0; */
+    }
+
+    .jam-ibadah > p {
+        line-height: 0.5;
+    }
+
+    .social-media-link > a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+    }
+
+    .jam-ibadah > p{
+        color: white;
+        font-size: 2vh;
+    }
+
+    .location > p {
+        font-size: 2vh;
+    }
+}
